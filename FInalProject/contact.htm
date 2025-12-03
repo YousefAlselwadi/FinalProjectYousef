@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Yousef QA & Automation Services</title>
+  <meta name="description" content="Contact Yousef for QA and test automation work or questions.">
+  <meta name="keywords" content="contact QA engineer, SDET contact form, automation testing contact">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="contact-page">
+  <header>
+    <div class="logo">Yousef QA &amp; Automation</div>
+    <nav>
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="about.htm">About</a></li>
+        <li><a href="services.htm">Services</a></li>
+        <li><a href="projects.htm">Projects</a></li>
+        <li><a href="contact.htm" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Contact</h1>
+      <p>Have a question or want to talk about a project? Use the form below.</p>
+    </section>
+
+    <section class="contact-layout">
+      <div class="contact-form-wrapper">
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:<span class="required">*</span></label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:<span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject:<span class="required">*</span></label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+
+          <div class="form-group">
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+              <option value="">Please choose</option>
+              <option value="job-opportunity">Job Opportunity</option>
+              <option value="qa-services">QA / Automation Services</option>
+              <option value="general-question">General Question</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:<span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Other Ways to Reach Me</h2>
+        <p>
+          You can also email the webmaster directly at
+          <a href="mailto:webmaster@example.com">webmaster@example.com</a>.
+        </p>
+        <p>
+          I aim to respond to messages as soon as possible. Please include as many details
+          as you can about your question or project so I can better understand your needs.
+        </p>
+
+        <img src="images/contact-illustration.jpg" alt="Illustration of a contact form and communication icons">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      If you have any questions or comments please contact the
+      <a href="mailto:webmaster@example.com">webmaster</a>.
+    </p>
+    <p>
+      <a href="project-docs.htm">Project Documents &amp; Final Presentation</a>
+    </p>
+    <p class="disclaimer">
+      Notice: This is not a real company, this web site was developed for a class project.
+    </p>
+  </footer>
+</body>
+</html>
